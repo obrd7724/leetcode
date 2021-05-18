@@ -7,8 +7,17 @@ pub use a0002_add_two_numbers::add_two_numbers;
 pub mod a0003_length_of_longest_substring;
 pub use a0003_length_of_longest_substring::length_of_longest_substring;
 
-
 pub mod a0004_find_median_sorted_arrays;
 pub use a0004_find_median_sorted_arrays::find_median_sorted_arrays_s1;
 pub use a0004_find_median_sorted_arrays::find_median_sorted_arrays_s2;
 pub use a0004_find_median_sorted_arrays::find_median_sorted_arrays_s3;
+
+pub mod a0005_longest_palindrome;
+pub use a0005_longest_palindrome::longest_palindrome_s1;
+pub use a0005_longest_palindrome::longest_palindrome_s2;
+pub use a0005_longest_palindrome::longest_palindrome_s3;
+
+pub mod a0006_z_convert;
+pub use a0006_z_convert::z_convert_s1;
+pub use a0006_z_convert::z_convert_s2;
+pub use a0006_z_convert::z_convert_s3;
